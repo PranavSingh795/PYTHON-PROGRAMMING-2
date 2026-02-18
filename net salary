@@ -1,0 +1,3 @@
+gross = float(input("Enter Gross Salary: "))
+net = gross + (gross * 0.10) - (gross * 0.03)
+print(f"Net Salary: {net}")
