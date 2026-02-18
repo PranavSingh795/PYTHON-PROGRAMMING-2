@@ -1,0 +1,12 @@
+import.math
+cx = float(input("Center X: "))
+    cy = float(input("Center Y: "))
+    r = float(input("Radius: "))
+    px = float(input("Point X: "))
+    py = float(input("Point Y: "))
+    
+    dist = math.sqrt(math.pow(px - cx, 2) + math.pow(py - cy, 2))
+    
+    if dist < r: print("Inside circle")
+    elif dist == r: print("On circle")
+    else: print("Outside circle")
