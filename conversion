@@ -1,0 +1,9 @@
+kgs = float(input("Enter KG to convert to grams: "))
+print(f"Grams: {kgs * 1000}")
+
+bytes_val = int(input("Enter bytes: "))
+print(f"KB: {bytes_val/1024}, MB: {bytes_val/(1024**2)}, GB: {bytes_val/(1024**3)}")
+
+# 14-15: Temperature
+celsius = float(input("Enter Celsius: "))
+print(f"Fahrenheit: {(9/5 * celsius) + 32}")
