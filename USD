@@ -1,0 +1,2 @@
+usd = float(input("Enter Dollars to convert to Rs: "))
+print(f"Rupees: {usd * 48}")
