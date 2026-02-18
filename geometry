@@ -1,0 +1,5 @@
+side = float(input("Enter side of square: "))
+print(f"Area: {side**2}, Perimeter: {4*side}")
+
+radius = float(input("Enter radius of circle: "))
+print(f"Area: {(22/7) * radius * radius}")
