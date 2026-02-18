@@ -1,0 +1,2 @@
+usd_p = float(input("Enter Dollars to convert to Pounds: "))
+print(f"Pounds: {(usd_p * 48) / 70}")
