@@ -1,0 +1,2 @@
+rs = float(input("Enter Rupees to convert to Dollars: "))
+print(f"Dollars: {rs / 48}")
