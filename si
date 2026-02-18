@@ -1,0 +1,4 @@
+p = float(input("Enter Principal: "))
+r = float(input("Enter Rate: "))
+n = float(input("Enter Time (years): "))
+print(f"Interest: {(p * r * n) / 100}")
