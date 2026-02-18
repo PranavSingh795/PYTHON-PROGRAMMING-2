@@ -1,0 +1,4 @@
+hrs = float(input("Enter hours to convert to minutes: "))
+print(f"Minutes: {hrs * 60}")
+mins = float(input("Enter minutes to convert to hours: "))
+print(f"Hours: {mins / 60}")
